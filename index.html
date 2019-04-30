@@ -1,0 +1,45 @@
+<!--
+
+Aim: JS and the Holy Trinity of Data Processing
+
+reduce in JS:
+  x = [1, 2, 3, 4]
+  x.reduce( function(a, b) { return a + b} );
+
+  *will sum elements of x
+
+map:
+  var x = [1, 2, 3, 4]
+  var newX = x.map ( function (n) {
+    return n * 2;
+    }
+  );
+  console.log("The doubled numbers are", newX);
+  [2, 4, 6, 8]
+
+  *will double items of x
+
+filter:
+  var x = [1, 2, 3, 4]
+  var newX = x.filter ( function(n){
+    return (n % 2 == 0)
+  });
+
+  *will create a list with only the even elements of x
+  newX: [2, 4]
+
+-->
+
+<!DOCTYPE html>
+<html>
+  <head><title>Data</title></head>
+  <body>
+    <!-- <p>Select local CSV File:</p>
+    <input id="csv" type="file"><br>
+
+    <output id="out">
+    </output> -->
+    <h2>Google Page Rank Algorithm</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRyjaRD1pQQ7IjWJYDntYZlMvvl_FdClsKG5VsarT8P6obmtHdbRzAlsph_Sl73cYfQe4xwu3tTi_x2/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  </body>
+</html>
